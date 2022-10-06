@@ -6,15 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <script src="app.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>QR Code Generator</title>
 </head>
 <body>
+    <div class="header">
+        <!-- <nav>
+            <ul>
+                <li>QR Code Generator</li>
+            </ul>
+        </nav>   -->
+        <h2>QR Code Generator</h2>
+    </div>
     <div class="main">
+        <div class="bodyPara">
+            <p>Want to share a link but want it the easy way, just turn into a scannable Qr Code.</p>
+            <br>
+            <p>Paste In a Link and Click Generate!!. Tada, you've got your own custom QR Code which you can share with you friends and family.</p>
+        </div>
+        <div class="qrIcon">
+            <i class="fa-solid fa-qrcode fa-10x"></i>
+        </div>
         <div class="inputBox">
             <input type="text">
         </div>
-        <div class="submitBtn">
-            <button type="submit">Generate</button>
+        <div class="btn-div">
+            <button class="btn" type="submit">Generate</button>
         </div>
     </div>
 </body>
