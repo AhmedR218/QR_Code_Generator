@@ -69,6 +69,16 @@ body {
     background-color: rgb(76, 140, 161);;
 }
 
+.qr {
+    display: none;
+    width: 18.75rem;
+    height: 18.75rem;
+    grid-row-start: 5;
+    grid-column-start: 3;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
 
 /* Media Queries */
 
@@ -91,7 +101,11 @@ body {
     }
 
     .btn {
-        width: 50%
+        width: 59%
+    }
+
+    .qr {
+        margin-top: 8em;
     }
 }
 
@@ -132,5 +146,11 @@ body {
 
     .btn {
         width: 100%;
+    }
+
+    .qr {
+        margin-top: 0;
+        margin-bottom: 5em;
+        text-align: center;
     }
   }
